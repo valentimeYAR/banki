@@ -1,0 +1,32 @@
+.wrapper {
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
+
+.link {
+  color: #414A5B;
+  font-weight: 500;
+
+  &:hover {
+    color: deepskyblue;
+  }
+}
+.menu{
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
